@@ -1,0 +1,22 @@
+.banner-img {
+  position: relative;
+}
+.banner-img img {
+  width: 100%;
+}
+.banner-img p {
+  position: absolute;
+  top: 120px;
+  left: 418px;
+}
+.banner-img p span {
+  display: block;
+  color: #fff;
+}
+.banner-img p span:nth-child(1) {
+  font-size: 36px;
+}
+.banner-img p span:nth-child(2) {
+  margin-top: 12px;
+  font-size: 18px;
+}

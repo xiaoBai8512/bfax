@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  border-radius: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+}
+.container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+html {
+  width: auto;
+  font-size: 20px;
+  font-weight: 100;
+}
+html body {
+  transition: all 0.5s;
+}
+html body header {
+  background-color: #04192e;
+}
+html body header .header-top {
+  padding: 8px 0;
+}
+html body header .header-top h1 {
+  display: inline !important;
+  color: #999;
+}
+html body header .header-top h1 a img {
+  width: auto;
+}
+html body header .header-top div {
+  float: right;
+  line-height: 48px;
+}
+html body header .header-top div span,
+html body header .header-top div a {
+  color: #abb5b6;
+  font-size: 12px;
+  padding-left: 4px;
+  font-weight: 100;
+}
+html body header .clear {
+  width: 100%;
+  border-top: 1px solid #1f3042;
+}
+html body header nav ul li {
+  float: left;
+  padding-right: 48px;
+}
+html body header nav ul li a {
+  display: inline-block;
+  padding: 18px 0 14px 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+  border-bottom: 2px solid #04192e;
+  box-sizing: border-box !important;
+}
+html body header nav ul li :hover {
+  color: #0192d5;
+  border-bottom: 2px solid #0192d5;
+}
+html body header nav .website-login {
+  float: right;
+}
+html body header nav .website-login .btn {
+  font-size: 14px;
+  font-weight: 100;
+  width: 100px;
+}
+html body header nav .website-login button:nth-child(1) {
+  background-color: #0c2744;
+  color: #abb5b4;
+}
+html body header nav .website-login button:nth-child(2) {
+  background-color: #0192d3;
+  color: #fff;
+}
+html body footer {
+  font-size: 0;
+  background-color: #04192e;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+html body footer .fr .fr-lt {
+  float: left;
+}
+html body footer .fr .fr-lt p {
+  margin-left: -10px !important;
+}
+html body footer .fr .fr-lt p span {
+  color: #8d8d8d;
+  font-size: 14px;
+  padding: 0 10px;
+  box-sizing: border-box !important;
+}
+html body footer .fr .fr-lt p span a {
+  color: #d2cdca;
+}
+html body footer .fr .fr-lt p:nth-child(1) > span {
+  border-right: 1px solid #d2cdca;
+}
+html body footer .fr .fr-rh {
+  text-align: right;
+}
+html body footer .fr .fr-rh img {
+  margin-left: 16px;
+}
+html body footer .fr .fr-rh span:nth-child(1) > img {
+  margin-top: -50px;
+}
+html body footer .fr:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+html body footer .fr {
+  zoom: 1;
+}
+html body .rightBar {
+  position: fixed;
+  top: 16%;
+  right: 40px;
+  z-index: 20;
+  display: inline-block;
+}
+html body .rightBar .item {
+  background-color: #494949;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+}
+html body .rightBar .item i {
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 12px;
+}
+html body .rightBar .item .zx {
+  text-align: center;
+}
+html body .rightBar .item .zx a {
+  text-decoration: none;
+}
+html body .rightBar .item .zx a i {
+  color: #fff;
+}
+html body .rightBar .item .zx a span {
+  display: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+html body .rightBar .item .zx:hover a i {
+  display: none;
+}
+html body .rightBar .item .zx:hover a span {
+  display: inline-block;
+  margin-top: 10px;
+}
+html body .rightBar .item .rq {
+  text-align: center;
+}
+html body .rightBar .item .rq a {
+  text-decoration: none;
+}
+html body .rightBar .item .rq a i {
+  color: #fff;
+}
+html body .rightBar .item .rq a span {
+  display: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+html body .rightBar .item .rq:hover a i {
+  display: none;
+}
+html body .rightBar .item .rq:hover a span {
+  display: inline-block;
+  margin-top: 10px;
+}
+html body .rightBar .item .cz {
+  text-align: center;
+}
+html body .rightBar .item .cz a {
+  text-decoration: none;
+}
+html body .rightBar .item .cz a i {
+  color: #fff;
+}
+html body .rightBar .item .cz a span {
+  display: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+html body .rightBar .item .cz:hover a i {
+  display: none;
+}
+html body .rightBar .item .cz:hover a span {
+  display: inline-block;
+  margin-top: 10px;
+}
+html body .rightBar .item .wx {
+  text-align: center;
+  position: relative;
+}
+html body .rightBar .item .wx a {
+  text-decoration: none;
+}
+html body .rightBar .item .wx a i {
+  color: #fff;
+}
+html body .rightBar .item .wx a span {
+  display: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+html body .rightBar .item .wx a .ewm {
+  display: none;
+  position: absolute;
+  left: -130px;
+  top: -30px;
+  width: 200%;
+}
+html body .rightBar .item .wx a .ewm img {
+  width: 100%;
+  border: 2px solid #dcdcdc;
+}
+html body .rightBar .item .wx:hover a i {
+  display: none;
+}
+html body .rightBar .item .wx:hover a span {
+  display: inline-block;
+  margin-top: 10px;
+}
+html body .rightBar .item .top {
+  text-align: center;
+}
+html body .rightBar .item .top a {
+  text-decoration: none;
+}
+html body .rightBar .item .top a i {
+  color: #fff;
+}
+html body .rightBar .item .top a span {
+  display: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+html body .rightBar .item .top:hover a i {
+  display: none;
+}
+html body .rightBar .item .top:hover a span {
+  display: inline-block;
+  margin-top: 10px;
+}
+html body .rightBar .popup01 {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  z-index: 6;
+}
+html body .rightBar .popup01 .container-fluid {
+  text-align: center;
+  padding: 10% 0 15%;
+}
+html body .rightBar .popup01 .container-fluid .row {
+  width: 380px;
+  text-align: center;
+  background-color: #fff;
+  display: inline-block;
+}
+html body .rightBar .popup01 .container-fluid .row .box .title {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+}
+html body .rightBar .popup01 .container-fluid .row .box .title .close {
+  position: absolute;
+  right: 14px;
+  top: 10px;
+  cursor: pointer;
+}
+html body .rightBar .popup01 .container-fluid .row .box .downBox .message {
+  padding: 5%;
+}
+html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li {
+  list-style: none;
+  margin: 5%;
+  padding: 0;
+}
+html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li input {
+  outline: none;
+  border: none;
+  background-color: #dcdcdc;
+  width: 100%;
+  height: 35px;
+  padding: 4px 10px;
+}
+html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li a {
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  width: 40%;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li .yuyue {
+  float: left;
+  background-color: #333;
+}
+html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li .goutong {
+  float: right;
+  background-color: #0068b7;
+}
+html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li p {
+  text-align: left;
+}
+html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li p span {
+  color: #0068b7;
+}
+html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul .lianxi {
+  margin-bottom: 5px;
+}
+html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li:last-child {
+  margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+  html body .rightBar .item {
+    background-color: #303030;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  html body .rightBar .item i {
+    font-size: 24px;
+    margin-top: 4px;
+  }
+  html body .rightBar .item .zx:hover a i {
+    display: none;
+  }
+  html body .rightBar .item .zx:hover a span {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 130%;
+  }
+  html body .rightBar .item .rq:hover a i {
+    display: none;
+  }
+  html body .rightBar .item .rq:hover a span {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 130%;
+  }
+  html body .rightBar .item .cz:hover a i {
+    display: none;
+  }
+  html body .rightBar .item .cz:hover a span {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 130%;
+  }
+  html body .rightBar .item .wx:hover a i {
+    display: none;
+  }
+  html body .rightBar .item .wx:hover a span {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 130%;
+  }
+  html body .rightBar .item .wx:hover a .ewm {
+    display: none;
+    position: absolute;
+    left: -94px;
+    top: -20px;
+    width: 200%;
+  }
+  html body .rightBar .item .top:hover a i {
+    display: none;
+  }
+  html body .rightBar .item .top:hover a span {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 130%;
+  }
+  html body .rightBar .topIcon {
+    display: none;
+    background-color: #0068b7;
+  }
+  html body .rightBar .popup01 .container-fluid {
+    text-align: center;
+    padding: 5% 0;
+  }
+  html body .rightBar .popup01 .container-fluid .row {
+    width: 290px;
+    text-align: center;
+    background-color: #fff;
+    display: inline-block;
+  }
+  html body .rightBar .popup01 .container-fluid .row .box .title {
+    position: relative;
+  }
+  html body .rightBar .popup01 .container-fluid .row .box .title .close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+  }
+  html body .rightBar .popup01 .container-fluid .row .box .downBox .message {
+    padding: 5%;
+  }
+  html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li {
+    list-style: none;
+    margin: 5%;
+    padding: 0;
+  }
+  html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li input {
+    outline: none;
+    border: none;
+    background-color: #dcdcdc;
+    width: 100%;
+    height: 35px;
+    padding: 4px 10px;
+  }
+  html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li a {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li .yuyue {
+    float: left;
+    background-color: #333;
+  }
+  html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li .goutong {
+    float: right;
+    background-color: #0068b7;
+  }
+  html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li p {
+    text-align: left;
+  }
+  html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li p span {
+    color: #0068b7;
+  }
+  html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul .lianxi {
+    margin-bottom: 5px;
+  }
+  html body .rightBar .popup01 .container-fluid .row .box .downBox .message ul li:last-child {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,467 @@
+section .banners .carousel .carousel-indicators li {
+  height: 2px;
+  width: 32px;
+  border: none;
+  background-color: #fff;
+  opacity: 0.3;
+  box-sizing: border-box;
+  margin: 0;
+}
+section .banners .carousel .carousel-indicators .active {
+  background-color: #fff;
+  opacity: 1;
+}
+section .banners .carousel .carousel-inner {
+  position: relative;
+}
+section .banners .carousel .carousel-inner .item .banner-text {
+  position: absolute;
+  top: 28%;
+  left: 22.4%;
+}
+section .banners .carousel .carousel-inner .item .banner-text p,
+section .banners .carousel .carousel-inner .item .banner-text a {
+  color: #fff;
+  font-size: 16px;
+}
+section .banners .carousel .carousel-inner .item .banner-text p:nth-child(1) {
+  font-size: 32px !important;
+}
+section .banners .carousel .carousel-inner .item .banner-text p:nth-child(2) {
+  line-height: 24px;
+}
+section .banners .carousel .carousel-inner .item .banner-text p:nth-child(3) {
+  margin-top: 54px;
+}
+section .banners .carousel .carousel-inner .item .banner-text p:nth-child(3) > a {
+  padding: 8px 36px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+}
+section .four-action {
+  padding: 50px 0;
+  text-align: center;
+}
+section .four-action p {
+  display: inline-block;
+  padding: 0 4%;
+}
+section .four-action p span {
+  display: block;
+  font-size: 22px;
+}
+section .four-action p span:nth-child(2) {
+  font-weight: 500;
+  margin: 28px 0 6px 0;
+}
+section .four-action p span:nth-child(3) {
+  color: #999;
+  font-size: 14px;
+}
+section .scheme {
+  background-image: url(../images/index/scheme-bc.png);
+  background-size: 100% 100%;
+}
+section .scheme h3,
+section .scheme h4 {
+  color: #fff;
+  font-weight: 100;
+  padding: 2px 0;
+}
+section .scheme h3 {
+  margin-top: 48px;
+}
+section .scheme .scheme-div {
+  padding: 0 18%;
+  margin-top: 48px;
+}
+section .scheme .scheme-div .scheme-lt {
+  text-align: left;
+  float: left;
+}
+section .scheme .scheme-div .scheme-lt li a {
+  width: 240px;
+  border-radius: 25px;
+  background-color: #3b5168;
+  margin: 4px 0;
+  line-height: 18px;
+  border: none !important;
+  position: relative;
+}
+section .scheme .scheme-div .scheme-lt li a p {
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+}
+section .scheme .scheme-div .scheme-lt li a p img {
+  width: 86%;
+}
+section .scheme .scheme-div .scheme-lt li a p span {
+  display: block;
+  font-weight: 100;
+}
+section .scheme .scheme-div .scheme-lt li a p span:nth-child(2) {
+  font-size: 12px;
+}
+section .scheme .scheme-div .scheme-lt li a p:nth-child(1) {
+  position: absolute;
+  top: 18px;
+  left: 14px;
+}
+section .scheme .scheme-div .scheme-lt li a p:nth-child(2) {
+  position: relative;
+  width: 160px;
+  top: 8px;
+  left: 70px;
+}
+section .scheme .scheme-div .nav-tabs > li.active > a,
+section .scheme .scheme-div .nav-tabs > li.active > a:hover,
+section .scheme .scheme-div .nav-tabs > li.active > a:focus {
+  background: -webkit-linear-gradient(left, #1a5ce2, #01dcf4);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #1a5ce2, #01dcf4);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #1a5ce2, #01dcf4);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #1a5ce2, #01dcf4);
+  /* 标准的语法（必须放在最后） */
+  border: none;
+  width: 280px;
+  transition: all 0.5s;
+}
+section .scheme .scheme-div .nav-tabs {
+  border-bottom: none;
+}
+section .scheme .scheme-div .nav > li > a {
+  padding: 6px;
+}
+section .scheme .scheme-div .scheme-gt {
+  display: inline-block;
+  float: right;
+}
+section .scheme .scheme-div .scheme-gt p {
+  width: 100%;
+  text-align: left;
+}
+section .scheme .scheme-div .scheme-gt p img {
+  width: 100%;
+}
+section .scheme .scheme-div .scheme-gt p span {
+  color: #fff;
+  font-size: 12.4px;
+}
+section .scheme .scheme-div .scheme-gt p span a {
+  color: #00a8ec;
+}
+section .scheme .scheme-div:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+section .scheme .scheme-div {
+  zoom: 1;
+}
+section .scheme .scheme-btn {
+  margin-top: 40px;
+  margin-bottom: 72px;
+}
+section .scheme .scheme-btn a {
+  color: #00a8ec;
+  border-radius: 25px;
+  border: 1px solid #00a8ec;
+  padding: 0.6% 2%;
+}
+section .service {
+  padding: 0 40px;
+}
+section .service h3 {
+  margin-top: 48px;
+}
+section .service .service-list {
+  margin-top: 48px;
+}
+section .service .service-list li {
+  overflow: hidden;
+  float: left;
+  width: 20%;
+  height: 380px;
+  background-color: rgba(0, 0, 0, 0.938);
+  background-size: cover;
+  position: relative;
+  transition: all 0.5;
+  margin-bottom: 72px;
+}
+section .service .service-list li img {
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  left: -200px;
+}
+section .service .service-list li p {
+  position: absolute;
+  top: 100px;
+  color: #fff;
+}
+section .service .service-list li p span {
+  display: inline-block;
+}
+section .service .service-list li p span:nth-child(1) img {
+  left: 2px;
+  width: 50px;
+}
+section .service .service-list li p span:nth-child(3) {
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  margin: 20px auto;
+}
+section .service .service-list li p span:nth-child(5) {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+section .service .service-list li p span:nth-child(7) {
+  font-size: 14px;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin-left: -1px;
+  padding: 0 18px;
+}
+section .service .service-list li p a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 6px 30px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  transition: all 0.5;
+  color: #fff;
+}
+section .service .service-list li p span:nth-child(7),
+section .service .service-list li p a {
+  opacity: 0;
+}
+section .service .service-list li:hover {
+  background-color: #00a8ec;
+}
+section .service .service-list li:hover p {
+  margin-top: -50px;
+  transition: all 1s;
+}
+section .service .service-list li:hover span:nth-child(7) {
+  opacity: 1;
+}
+section .service .service-list li:hover a {
+  opacity: 1;
+}
+section .brand {
+  background-color: #f5f8fd;
+}
+section .brand h3 {
+  margin-top: 48px;
+  padding: 2px 0;
+}
+section .brand h5 {
+  color: #999;
+  padding: 2px 0;
+}
+section .brand .search {
+  margin-top: 48px;
+  width: 100%;
+}
+section .brand .search input:nth-child(1) {
+  width: 90%;
+  text-align: left !important;
+  float: left;
+  line-height: 40px;
+}
+section .brand .search input:nth-child(2) {
+  display: inline;
+  width: 10%;
+  line-height: 40px;
+  border-radius: 0;
+  background-color: #0192d3;
+  color: #fff;
+  border: 2px solid #0192d3;
+}
+section .brand .color-lump {
+  margin-top: 10px;
+  margin-bottom: 72px;
+}
+section .brand .color-lump .lumps {
+  margin-top: 20px;
+}
+section .brand .color-lump .lumps .lump-img {
+  float: left;
+}
+section .brand .color-lump .lumps .lump-img img {
+  width: 100%;
+}
+section .brand .color-lump .lumps .lump-link {
+  float: left;
+}
+section .brand .color-lump .lumps .lump-link span a span {
+  display: block !important;
+  text-align: left;
+  padding: 15px 0;
+  color: #333;
+}
+section .brand .color-lump .lumps .lump-link span :hover span {
+  color: #00a8ec;
+}
+section .brand .color-lump .lumps .lump-link .col-lg-12 a span {
+  color: #b6b6b6;
+}
+section .brand .color-lump .lumps:after {
+  clear: both;
+  content: ".";
+  display: block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+section .brand .color-lump .lumps {
+  zoom: 1;
+}
+section .cooperation h3 {
+  margin-top: 48px;
+  padding: 2px 0;
+}
+section .cooperation h5 {
+  color: #999;
+  padding: 2px 0;
+}
+section .cooperation p {
+  margin-top: 48px;
+  margin-bottom: 72px;
+}
+section .cooperation p a {
+  display: inline-block;
+}
+section .cooperation p a img {
+  width: 180px;
+  margin: 0 20px;
+}
+section .cooperation p a :hover {
+  box-sizing: border-box;
+  box-shadow: #999 2px 2px 40px 10px;
+}
+section .news {
+  background-color: #f7f7f7;
+  padding-top: 48px;
+}
+section .news h3 {
+  display: inline;
+  margin-right: 20px;
+}
+section .news h5 {
+  display: inline;
+}
+section .news h5 span {
+  padding-right: 16px;
+  padding-left: 16px;
+  border-right: 1px solid #555555;
+}
+section .news h5 span a {
+  color: #555555;
+}
+section .news h5 span :hover {
+  color: #0192d3 !important;
+}
+section .news h5 :nth-last-child(1) {
+  border-right: none;
+}
+section .news .news-content {
+  margin-top: 18px;
+  margin-bottom: 72px;
+}
+section .news .news-content .news-banners {
+  position: relative;
+}
+section .news .news-content .news-banners .slide {
+  position: relative;
+}
+section .news .news-content .news-banners .slide .carousel-indicators {
+  position: absolute;
+  bottom: 0px;
+  margin-left: 60px;
+}
+section .news .news-content .news-banners .slide .carousel-inner {
+  position: relative;
+}
+section .news .news-content .news-banners .slide .carousel-inner .item a .news-banner-text {
+  background-color: rgba(51, 51, 51, 0.712) !important;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0;
+}
+section .news .news-content .news-banners .slide .carousel-inner .item a .news-banner-text span {
+  margin-left: 20px;
+  display: inline;
+  line-height: 50px;
+  color: #fff;
+}
+section .news .news-content .news-text li:nth-child(1) {
+  border-bottom: 1px solid #f7eded;
+  padding-bottom: 8px;
+}
+section .news .news-content .news-text li:nth-child(1) a span {
+  color: #0091d4;
+  font-size: 20px;
+  line-height: 36px;
+}
+section .news .news-content .news-text li:nth-child(1) a span:nth-child(2) {
+  color: #999 !important;
+  float: right;
+  font-size: 14px;
+}
+section .news .news-content .news-text li:nth-child(1) a p {
+  line-height: 20px;
+  color: #7f7f7f;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+section .news .news-content .news-text li:nth-child(1) .a:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+section .news .news-content .news-text li:nth-child(1) .a {
+  zoom: 1;
+}
+section .news .news-content .news-text li a span {
+  color: #222;
+  font-size: 14px;
+  line-height: 34px;
+}
+section .news .news-content .news-text li a span:nth-child(2) {
+  color: #999 !important;
+  float: right;
+  font-size: 14px;
+}
+section .news .news-content .news-text li .a:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+section .news .news-content .news-text li .a {
+  zoom: 1;
+}
+section .news .news-content .news-text li:nth-child(2) {
+  margin-top: 8px;
+}

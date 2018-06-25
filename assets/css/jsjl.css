@@ -1,0 +1,98 @@
+.after-sale {
+  background-color: #f5f8fd;
+}
+.after-sale .container .shFw .col-lg-3 {
+  overflow: hidden;
+  padding-left: auto;
+}
+.after-sale .container .shFw .col-lg-3 img {
+  width: 100%;
+}
+.after-sale .container .shFw .col-lg-3 a {
+  background-color: #fff;
+  display: block;
+}
+.after-sale .container .shFw .col-lg-3 a span {
+  padding: 20px 0 0 20px;
+}
+.after-sale .container .shFw .col-lg-3 a span:nth-child(1) {
+  color: #333333;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+}
+.after-sale .container .shFw .col-lg-3 a span:nth-child(2) {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+.leading-Edge .container .tab-leading .leading-div .leading-gt {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.leading-Edge .container .tab-leading .leading-div #leading-Tab {
+  border-bottom: none;
+}
+.leading-Edge .container .tab-leading .leading-div #leading-Tab li {
+  float: none !important;
+  border: 1px solid #b7b7b7;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.leading-Edge .container .tab-leading .leading-div #leading-Tab li a {
+  height: 113.5px;
+  color: #666;
+}
+.leading-Edge .container .tab-leading .leading-div #leading-Tab li a p span:nth-child(1) {
+  display: block;
+  font-size: 20px;
+  margin-left: -60px;
+  margin-top: 26px;
+}
+.leading-Edge .container .tab-leading .leading-div #leading-Tab li a p span:nth-child(2) {
+  display: none;
+  font-size: 20px;
+  margin-left: -130px;
+}
+.leading-Edge .container .tab-leading .leading-div #leading-Tab li.active > a,
+.leading-Edge .container .tab-leading .leading-div #leading-Tab a:hover,
+.leading-Edge .container .tab-leading .leading-div #leading-Tab a:focus {
+  border: 1px solid #0092ce;
+  background-color: #0092ce !important;
+  border-radius: 0;
+  color: #fff;
+}
+.leading-Edge .container .tab-leading .leading-div #leading-Tab li.active > a,
+.leading-Edge .container .tab-leading .leading-div #leading-Tab a:hover,
+.leading-Edge .container .tab-leading .leading-div #leading-Tab a:focus span:nth-child(2) {
+  display: block;
+  padding-top: 10px;
+}
+.leading-Edge .container .tab-leading .leading-div #leading-Tab li.active > a,
+.leading-Edge .container .tab-leading .leading-div #leading-Tab a:hover,
+.leading-Edge .container .tab-leading .leading-div #leading-Tab a:focus span:nth-child(1) {
+  margin-top: 0px;
+}
+.leading-Edge .container .tab-leading .leading-div .leading-gt .tab-pane .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+.leading-Edge .container .tab-leading .leading-div .leading-gt .tab-pane .swiper-container .swiper-wrapper .swiper-slide p {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+.leading-Edge .container .tab-leading .leading-div .leading-gt .tab-pane .swiper-container .swiper-wrapper .swiper-slide p span:nth-child(1) {
+  display: block;
+  padding: 25px 0 0 40px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.leading-Edge .container .tab-leading .leading-div .leading-gt .tab-pane .swiper-container .swiper-wrapper .swiper-slide p span:nth-child(2) {
+  display: block;
+  padding: 15px 0 20px 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+}

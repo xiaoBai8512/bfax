@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-file-include": "^2.0.1",
+    "gulp-less": "^3.5.0",
+    "less": "^2.7.3"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.3.1",
+    "swiper": "^4.3.3"
+  }
+}
